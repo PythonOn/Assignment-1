@@ -1,0 +1,32 @@
+answer to question 1
+#to calucate the compound interest
+pri = 10000# principal amount 
+compfr = 12#compound frequncy
+roi = 0.08#rate of interest
+time = input("for how much time u want to find the compound interest on principal ?")
+time = float(time)
+A = pri*((1+roi/compfr)**(time*compfr))
+A = float(A)
+print (A)
+
+ANSWER TO QUESTION 2
+
+# TO Calculate theare of the rectangle 
+height = input("enter the value of height?")
+width = input ("enter the value of width?")
+height = float(height)
+width = float(width)
+area = height*width# find the area of the rectangle
+if area <=50: 
+	print ("the area of rectangle ",area,"that area is sooooooooo small") 
+elif area >=50 and area<=200:
+	print ("the area of rectangle",area,"that area is ooook")
+else:
+	print ("the area of rectangle",area,"OMG")
+	
+	ANSWER TO QUESTION 3
+	#to convert celsuis to  fahrenheit
+cel = input ("enter the value in celsuis ?")
+cel = float(cel)
+far = 32+(cel)*(9.0/5.0)
+print (far)#print the value 
